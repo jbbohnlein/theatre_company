@@ -1,0 +1,211 @@
+@font-face {
+    font-family: robotto;
+    src: url(/Users/jordanbohnlein/Documents/Coding_Temple/module_1_-_html_and_css/my_projects/theatre_company/Roboto);
+}
+
+* {
+    font-family: robotto;
+}
+
+.container {
+    position: relative;
+    text-align: center;
+    color: white;
+  }
+
+#theatre_logo {
+    width: 1000px;
+    height: 400px;
+}
+
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: xx-large;  
+}
+
+h2 {
+    color: black;
+    font-style: bold;
+}
+
+h3 {
+    color: black;
+}
+
+h4 {
+    color: black;
+    font-style: bold;
+}
+
+h5 {
+    color: black;
+    font-style: bold;
+}
+
+h6 {
+    color: black;
+}
+
+.container {
+    border: 1px solid red;
+}
+
+.grid-container {
+    justify-content: center;
+    border: 1px solid blue;
+    display: flex;
+    grid-template-columns: 1fr 2fr 1fr;
+    /* grid-auto-rows: minmax(150px, auto); */
+    grid-row-gap: 20px;
+    grid-column-gap: 40px;
+    margin-left: 150px;
+    margin-right: 150px;
+    margin-bottom: 100px;
+}
+
+.header {
+    display: flex;
+    border: 1px solid black;
+    margin-left: 150px;
+    margin-right: 150px;
+    margin-bottom: 10px;
+    background-color: rgba(218, 216, 239, 0.394);
+
+}
+
+.grid-item {
+    display: flex;
+    align-items: center;
+    border: 1px solid green;
+}
+
+.grid-item-1 {
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.grid-item-2 {
+    border-color: aquamarine;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.button {
+    background-color: rgb(228, 196, 33);
+}
+
+.image {
+    display: flex;
+    height: auto;
+    width: 80%;
+}
+
+.footer {
+    margin-bottom: 0px;
+}
+
+.bottom {
+    background-color: black;
+    color: white;
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    padding-top: 30px;
+    justify-content: space-evenly;
+}
+
+@media only screen and (max-width: 600px) {
+    .bottom{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        align-content: stretch;
+    }
+    
+}
+
+.map {
+    width: 25%;
+    padding: 2%;
+    min-width: 300px;
+}
+
+.mapimg {
+    width: 100%;
+}
+
+.footinfo {
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    font: 0.6em;
+}
+
+.footshows {
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    font: 0.6em;
+}
+
+.social {
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    font: 0.6em;
+}
+
+.foothead {
+    font-size: 2em;
+}
+
+.tiny {
+    margin: 3px;
+}
+
+/* .wrapper {
+    display: grid;
+    grid-template-columns: 800px 100px;
+    grid-gap: 30px;
+    margin-left: 200px;
+    margin-right: 200px;
+    align-content: flex-start;
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+}
+
+.box {
+    vertical-align: middle;
+    text-align: justify;
+} 
+
+#raisin {
+    float: left;
+}
+
+.b {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    border: 1px solid green;
+}
+
+.c {
+    vertical-align: middle;
+    padding: 5px;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    border: 1px solid blue;
+    
+ }  */
+
